@@ -1,0 +1,18 @@
+{
+  "id": "pf2e-npc-as-pc-sheet",
+  "title": "PF2e NPC as PC Sheet",
+  "description": "Makes NPC sheets look like PC character sheets in PF2e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "systems": ["pf2e"],
+  "esmodules": ["scripts/npc-pc-sheet.js"],
+  "styles": ["styles/npc-pc-sheet.css"],
+  "authors": [
+    {
+      "name": "Your Name"
+    }
+  ]
+}
