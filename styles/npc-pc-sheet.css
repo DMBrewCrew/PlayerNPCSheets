@@ -1,0 +1,228 @@
+.pf2e.sheet.npc-as-pc {
+  background: #f0f0f0;
+}
+
+.pf2e.sheet.npc-as-pc .sheet-header {
+  background: linear-gradient(to bottom, #4a4a4a, #2a2a2a);
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.pf2e.sheet.npc-as-pc .char-header {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.pf2e.sheet.npc-as-pc .profile-img {
+  flex: 0 0 100px;
+}
+
+.pf2e.sheet.npc-as-pc .profile-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #d4af37;
+  object-fit: cover;
+}
+
+.pf2e.sheet.npc-as-pc .header-details {
+  flex: 1;
+}
+
+.pf2e.sheet.npc-as-pc .char-name input {
+  font-size: 24px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.pf2e.sheet.npc-as-pc .char-details-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pf2e.sheet.npc-as-pc .detail-item {
+  flex: 1;
+}
+
+.pf2e.sheet.npc-as-pc .detail-item label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.pf2e.sheet.npc-as-pc .detail-item input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 4px 8px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.pf2e.sheet.npc-as-pc .ability-scores {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.pf2e.sheet.npc-as-pc .ability {
+  text-align: center;
+}
+
+.pf2e.sheet.npc-as-pc .ability label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.pf2e.sheet.npc-as-pc .ability input {
+  width: 60px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pf2e.sheet.npc-as-pc .sheet-navigation {
+  display: flex;
+  background: #333;
+  border-bottom: 2px solid #d4af37;
+}
+
+.pf2e.sheet.npc-as-pc .sheet-navigation .item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  color: #ccc;
+  cursor: pointer;
+  border-right: 1px solid #444;
+  transition: all 0.2s;
+}
+
+.pf2e.sheet.npc-as-pc .sheet-navigation .item:hover {
+  background: #444;
+  color: white;
+}
+
+.pf2e.sheet.npc-as-pc .sheet-navigation .item.active {
+  background: #d4af37;
+  color: #000;
+  font-weight: bold;
+}
+
+.pf2e.sheet.npc-as-pc .sheet-content {
+  padding: 15px;
+}
+
+.pf2e.sheet.npc-as-pc .defenses {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pf2e.sheet.npc-as-pc .defense-stat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pf2e.sheet.npc-as-pc .defense-stat label {
+  font-weight: bold;
+  color: #333;
+}
+
+.pf2e.sheet.npc-as-pc .defense-value,
+.pf2e.sheet.npc-as-pc .defense-stat span {
+  font-size: 18px;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.pf2e.sheet.npc-as-pc .skills-section {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pf2e.sheet.npc-as-pc .skill-category h4 {
+  color: #d4af37;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 5px;
+  margin: 10px 0;
+}
+
+.pf2e.sheet.npc-as-pc .skill-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.pf2e.sheet.npc-as-pc .skill-value {
+  font-weight: bold;
+  color: #333;
+}
+
+.pf2e.sheet.npc-as-pc .item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pf2e.sheet.npc-as-pc .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.pf2e.sheet.npc-as-pc .item-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pf2e.sheet.npc-as-pc .item-name img {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.pf2e.sheet.npc-as-pc .item-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.pf2e.sheet.npc-as-pc .item-control {
+  color: #666;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.pf2e.sheet.npc-as-pc .item-control:hover {
+  color: #d4af37;
+}
