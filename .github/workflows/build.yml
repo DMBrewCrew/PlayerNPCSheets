@@ -28,7 +28,7 @@ jobs:
       
       - name: Create zip of code
         run: |
-          zip -r pf2e-Animist-Enhancement-Module.zip . -x "*.git*" "*.github*"
+          zip -r NPC-as-PC-Sheet.zip . -x "*.git*" "*.github*"
       
       - name: Create latest release
         uses: softprops/action-gh-release@v1
@@ -40,7 +40,7 @@ jobs:
           make_latest: true
           body: "Release version ${{ github.event.inputs.version }}"
           files: |
-            pf2e-Animist-Enhancement-Module.zip
+            NPC-as-PC-Sheet.zip
             module.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
